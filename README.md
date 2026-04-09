@@ -1,6 +1,6 @@
-# MDS: Multi-turn Dialogue Selection
+# MDS: Data Selection for Multi-turn Dialogue Instruction Tuning
 
-Official code and data release for **MDS (Multi-turn Dialogue Selection)**.
+Official code and data release for **MDS (Data Selection for Multi-turn Dialogue Instruction Tuning)**.
 
 This repository releases the core data selection and evaluation pipeline used in our work on multi-turn dialogue instruction tuning. The released contents include:
 
