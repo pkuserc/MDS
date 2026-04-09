@@ -1,11 +1,18 @@
-<p align="center">
-    <h2 align="center">MDS: Data Selection for Multi-turn Dialogue Instruction Tuning <br>
-        [ACL'26 Findings]
-    <br>
-    <em>
-    <a href="https://deepblue666.github.io/">Bo Li</a>, Shikun Zhang and Wei Ye 
-     </em> </h2>
-</p>
+<div align="center">
+ 
+**MDS: Data Selection for Multi-turn Dialogue Instruction Tuning**
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)]()
+[![Venue](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+ 
+**ACL'26 Findings**
+
+ <a href="https://deepblue666.github.io/">Bo Li</a>, Shikun Zhang, Wei Ye
+
+</div>
+
+
 
 This repository releases the core data selection and evaluation pipeline used in our work on multi-turn dialogue instruction tuning (MDS). The released contents include:
 
