@@ -4,7 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)]()
 [![Venue](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Task](https://img.shields.io/badge/Task-Dialogue%20Data%20Selection-purple.svg)](#overview)
  
 **ACL'26 Findings**
 
