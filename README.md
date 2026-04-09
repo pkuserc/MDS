@@ -495,7 +495,6 @@ This is expected. The repository releases the selection-specific and evaluation-
 
 ## Citation
 
-Please update this section with the final camera-ready citation.
 
 
 
