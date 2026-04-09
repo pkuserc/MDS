@@ -1,8 +1,13 @@
-# MDS: Data Selection for Multi-turn Dialogue Instruction Tuning
+<p align="center">
+    <h2 align="center">MDS: Data Selection for Multi-turn Dialogue Instruction Tuning <br>
+        [AAAI'26 Oral]
+    <br>
+    <em>
+    <a href="https://deepblue666.github.io/">Bo Li</a>, Shikun Zhang and Wei Ye 
+     </em> </h2>
+</p>
 
-Official code and data release for **MDS (Data Selection for Multi-turn Dialogue Instruction Tuning)**.
-
-This repository releases the core data selection and evaluation pipeline used in our work on multi-turn dialogue instruction tuning. The released contents include:
+This repository releases the core data selection and evaluation pipeline used in our work on multi-turn dialogue instruction tuning (MDS). The released contents include:
 
 - MDS global-stage selection code
 - MDS local-stage selection code
