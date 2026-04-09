@@ -1,6 +1,6 @@
 <p align="center">
     <h2 align="center">MDS: Data Selection for Multi-turn Dialogue Instruction Tuning <br>
-        [AAAI'26 Oral]
+        [ACL'26 Findings]
     <br>
     <em>
     <a href="https://deepblue666.github.io/">Bo Li</a>, Shikun Zhang and Wei Ye 
