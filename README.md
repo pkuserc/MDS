@@ -6,17 +6,16 @@
   <strong>English</strong> | <a href="./README_zh.md">简体中文</a>
 </p>
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2604.07892)
-[![Venue](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
+<a href="https://arxiv.org/abs/2604.07892"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white" /></a>
+<a href="https://2026.aclweb.org/"><img src="https://img.shields.io/badge/Venue-ACL%202026-blue" /></a>
 [![Task](https://img.shields.io/badge/Task-Dialogue%20Data%20Selection-purple.svg)](#overview)
+<img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" />
 
 **ACL 2026 Findings**
 
 <a href="https://deepblue666.github.io/">Bo Li</a>, Shikun Zhang, Wei Ye
 
 </div>
-
-
 
 This repository releases the core data selection and evaluation pipeline used in our work on multi-turn dialogue instruction tuning (MDS). The released contents include:
 
