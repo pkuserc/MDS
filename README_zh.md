@@ -3,7 +3,7 @@
 # 面向多轮对话指令微调的数据筛选方法
 
 <p>
-  <a href="./README.md">English</a> | <strong>简体中文</strong>
+  <a href="https://github.com/WisdomShell/MDS">English</a> | <strong>简体中文</strong>
 </p>
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2604.07892)
