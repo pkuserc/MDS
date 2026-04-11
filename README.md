@@ -26,10 +26,9 @@ This repository releases the core data selection and evaluation pipeline used in
 - Released training and evaluation datasets
 - An environment file `requirements.txt` listing the required packages and versions
 
-
 ---
 
-## Overview
+## 🌟 Overview
 
 Multi-turn dialogue corpora are often noisy and structurally inconsistent. Compared with single-turn instruction data, they are more likely to contain topic drift, repetitive chit-chat, weak information progress, and mismatched answer formats across turns. MDS is designed to address this problem from a **dialogue-level data selection** perspective.
 
@@ -49,7 +48,7 @@ This repository focuses on the **selection, data conversion, and evaluation** pa
 
 ---
 
-## What Is Released
+## 📦 What Is Released
 
 This repository includes the following components:
 
@@ -61,8 +60,7 @@ This repository includes the following components:
   Local-stage dialogue scoring and final bin-wise budgeted selection.
 
 - `build_disk_data.py`  
-  Conversion of selected train dialogues and released evaluation dialogues into disk-style data format for downstream training or evaluation.  
-  If your final conversion script uses a different filename, replace `build_disk_data.py` in this README accordingly.
+  Conversion of selected train dialogues and released evaluation dialogues into disk-style data format for downstream training or evaluation.
 
 - `mds_dialogue_eval.py`  
   Unified evaluation script for model prediction files.
@@ -81,13 +79,15 @@ This repository includes the following components:
   - `ConsistentChat_use_270.jsonl`
   - `dialogue_test_unseen_use.jsonl`
   - `mt_eval_part_use.jsonl`
+
 ---
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```text
 .
 ├── README.md
+├── README_zh.md
 ├── requirements.txt
 ├── mds_global_stage.py
 ├── mds_local_stage.py
@@ -122,7 +122,7 @@ data/train/*.jsonl
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 We recommend Python 3.10 or above.
 
@@ -136,7 +136,7 @@ Depending on your environment, you may also need to install GPU-specific package
 
 ---
 
-## Data Organization
+## 🧾 Data Organization
 
 ### Training Data
 
@@ -201,7 +201,7 @@ The released scripts may also support closely related variants, but the above fo
 
 ---
 
-## Supported Input Formats
+## 🧩 Supported Input Formats
 
 ### 1. Dialogue Pool Format
 
@@ -251,7 +251,7 @@ The evaluation script will append metric outputs to each record and can also sav
 
 ---
 
-## Method Pipeline
+## 🔄 Method Pipeline
 
 ### Step 1. Global-Stage Candidate Construction
 
@@ -363,7 +363,7 @@ Before running, please update the relevant settings in the script, such as:
 
 ---
 
-## Evaluation Metrics
+## 📊 Evaluation Metrics
 
 The unified evaluation script supports the following metrics:
 
@@ -403,7 +403,7 @@ The unified evaluation script supports the following metrics:
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 A minimal end-to-end workflow is:
 
@@ -436,8 +436,7 @@ python mds_dialogue_eval.py
 
 ---
 
-
-## Script Notes
+## 🛠️ Script Notes
 
 ### `mds_global_stage.py`
 Main functionality:
@@ -471,7 +470,7 @@ Main functionality:
 
 ---
 
-## Common Issues
+## ❓ Common Issues
 
 ### 1. API timeout during evaluation
 GPT-based evaluation may timeout on large batches or under strict rate limits.
@@ -496,19 +495,20 @@ This is expected. The repository releases the selection-specific and evaluation-
 
 ---
 
-## Citation
+## 📖 Citation
 
 ```bibtex
 @misc{li2026dataselectionmultiturndialogue,
-  title        = {Data Selection for Multi-turn Dialogue Instruction Tuning},
-  author       = {Bo Li and Shikun Zhang and Wei Ye},
-  year         = {2026},
-  eprint       = {2604.07892},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.CL},
-  url          = {https://arxiv.org/abs/2604.07892}
+  title         = {Data Selection for Multi-turn Dialogue Instruction Tuning},
+  author        = {Bo Li and Shikun Zhang and Wei Ye},
+  year          = {2026},
+  eprint        = {2604.07892},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2604.07892}
 }
 ```
 
 ---
+
 
