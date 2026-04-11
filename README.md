@@ -6,6 +6,7 @@
   <strong>English</strong> | <a href="./README_zh.md">简体中文</a>
 </p>
 
+<a href="https://wisdomshell.github.io/MDS/"><img src="https://img.shields.io/badge/Project-Page-green?logo=githubpages&logoColor=white" /></a>
 <a href="https://arxiv.org/abs/2604.07892"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white" /></a>
 <a href="https://2026.aclweb.org/"><img src="https://img.shields.io/badge/Venue-ACL%202026-blue" /></a>
 [![Task](https://img.shields.io/badge/Task-Dialogue%20Data%20Selection-purple.svg)](#overview)
