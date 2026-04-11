@@ -495,16 +495,17 @@ This is expected. The repository releases the selection-specific and evaluation-
 
 ## Citation
 
+```bibtex
 @misc{li2026dataselectionmultiturndialogue,
-      title={Data Selection for Multi-turn Dialogue Instruction Tuning}, 
-      author={Bo Li and Shikun Zhang and Wei Ye},
-      year={2026},
-      eprint={2604.07892},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2604.07892}, 
+  title        = {Data Selection for Multi-turn Dialogue Instruction Tuning},
+  author       = {Bo Li and Shikun Zhang and Wei Ye},
+  year         = {2026},
+  eprint       = {2604.07892},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  url          = {https://arxiv.org/abs/2604.07892}
 }
-
+```
 
 ---
 
