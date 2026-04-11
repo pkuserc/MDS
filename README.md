@@ -1,14 +1,18 @@
 <div align="center">
- 
-**Data Selection for Multi-turn Dialogue Instruction Tuning**
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)]()
+# Data Selection for Multi-turn Dialogue Instruction Tuning
+
+<p>
+  <strong>English</strong> | <a href="./README_zh.md">简体中文</a>
+</p>
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2604.07892)
 [![Venue](https://img.shields.io/badge/ACL-2026-blue.svg)](https://2026.aclweb.org/)
 [![Task](https://img.shields.io/badge/Task-Dialogue%20Data%20Selection-purple.svg)](#overview)
- 
-**ACL'26 Findings**
 
- <a href="https://deepblue666.github.io/">Bo Li</a>, Shikun Zhang, Wei Ye
+**ACL 2026 Findings**
+
+<a href="https://deepblue666.github.io/">Bo Li</a>, Shikun Zhang, Wei Ye
 
 </div>
 
